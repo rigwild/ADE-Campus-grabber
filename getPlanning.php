@@ -19,7 +19,7 @@ $url = "https://edt.univ-littoral.fr/jsp/custom/modules/plannings/anonymous_cal.
 $data = getPlanningIut($url, "jsonIndent");
 
 /*Enregistrer le planning dans un fichier*/
-saveToFile("planningData.json", $data);
+/*saveToFile("planningData.json", $data);*/
 
 /*Afficher le JSON sur la page*/
 echo $data;
